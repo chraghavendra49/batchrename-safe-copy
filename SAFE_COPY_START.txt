@@ -1,0 +1,27 @@
+BatchRename Safe Copy - Step 2
+
+Requires Python with Tkinter (your existing Python installation works).
+No additional packages are needed.
+
+1. Extract this ZIP into a new folder.
+2. Open safe_copy.py in VS Code.
+3. Run it with Python, using the full quoted path if needed.
+   Alternatively, double-click START_SAFE_COPY.bat on Windows.
+4. Select the included sample_files folder as the source.
+5. Select Desktop or another location OUTSIDE sample_files as output.
+6. Set Prefix to Product and Start to 10.
+7. Click Preview names, then Create safe copies and confirm.
+8. Open the new BatchRename_ folder shown in the success message.
+9. Check the copied contents and verify original names and contents remain.
+
+Each run creates a unique output folder. Existing output files are not replaced.
+Only regular files directly in the selected source folder are included.
+Subfolders and symbolic links are excluded.
+Contents and extensions are copied; filesystem timestamps/permissions are not preserved.
+Do not edit source files while copying. Large files can temporarily make the window busy.
+If copying fails (e.g. disk full), the message identifies the partial output folder.
+Inspect partial copies before deleting that folder manually or retrying.
+
+The original read-only preview.py is also included unchanged.
+Run tests: python -m unittest discover -v
+10 automated tests passed in the development environment; Windows GUI testing is next.

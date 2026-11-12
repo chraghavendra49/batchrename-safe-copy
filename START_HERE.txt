@@ -1,0 +1,18 @@
+BatchRename: Day 1 starter / మొదటి రోజు
+
+ఇది preview మాత్రమే. ఫైళ్ల పేర్లను మార్చదు, copy/delete చేయదు.
+Windowsలో Python, Tkinter అందుబాటులో ఉండాలి.
+
+1. ZIPను Extract All చేయండి.
+2. Extract చేసిన folderలో Terminal / Command Prompt తెరవండి.
+3. python preview.py
+   Python launcher ఉంటే: py preview.py
+4. Select folder ద్వారా sample_files ఎంచుకోండి.
+5. Prefix: Product, Start: 1 ఉంచి Preview names నొక్కండి.
+6. Original filename, Proposed filename అనే columns కనిపిస్తాయి.
+
+Tests: python -m unittest -v
+
+ఈ releaseలో copy, CSV mapping, CSV log, Windows executable లేవు.
+ఇది అమ్మడానికి సిద్ధమైన final product కాదు. Customer demand నిర్ధారణ కాలేదు.
+తదుపరి దశ: Windowsలో previewను పరీక్షించి, safe-copy feature చేర్చడం.
